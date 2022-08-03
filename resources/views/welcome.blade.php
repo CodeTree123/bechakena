@@ -112,13 +112,13 @@
       <div id="banner-slider" class="carousel slide"  data-bs-ride="carousel"  data-bs-touch="true">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/s5.jpg" class="d-block w-100 slider-img" alt="...">
+            <img src="{{ asset ('assets/img/s5.jpg')}}" class="d-block w-100 slider-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/s6.jpg" class="d-block w-100 slider-img" alt="...">
+            <img src="{{ asset ('assets/img/s6.jpg')}}" class="d-block w-100 slider-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/s7.jpg" class="d-block w-100 slider-img" alt="...">
+            <img src="{{ asset ('assets/img/s7.jpg')}}" class="d-block w-100 slider-img" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#banner-slider" data-bs-slide="prev">
@@ -137,7 +137,7 @@
           <div class="card h-100 text-center border-0  shadow-one    ">
             <h5 class="card-title py-3">Gaming accessories</h5>
             
-            <img src="assets/c1.webp" class="card-img-top" alt="...">
+            <img src="{{ asset ('assets/img/c1.webp')}}" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <a href="#" class="link-dark text-decoration-none card-text ">See More...</a>
             </div>
@@ -148,7 +148,7 @@
 
         <div class="col ps-2 pe-2">
           <div class="card h-100 border-0 shadow-one    ">
-            <img src="assets/c2.jpg" class="card-img-top  " alt="...">
+            <img src="{{ asset ('assets/img/c2.jpg')}}" class="card-img-top  " alt="...">
             <h5 class="card-title py-3 text-center">Gadgets</h5>
             <div class="card-body text-center">
               <a href="#" class="link-dark text-decoration-none ">See More...</a>
@@ -159,7 +159,7 @@
         <div class="col ps-2 pe-2">
           <div class="card h-100 border-0  shadow-one    ">
             <h5 class="card-title text-center py-3">Kitchen appliance</h5>
-            <img src="assets/c3.webp" class="card-img-top" alt="...">
+            <img src="{{ asset ('assets/img/c3.webp')}}" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <a href="#" class="link-dark text-decoration-none ">See More...</a>
             </div>
@@ -168,7 +168,7 @@
         </div>
         <div class="col ps-2 pe-0">
           <div class="card h-100 border-0  shadow-one    ">
-            <img src="assets/c4.jpg" class="card-img-top" alt="...">
+            <img src="{{ asset ('assets/img/c4.jpg')}}" class="card-img-top" alt="...">
             <h5 class="card-title text-center py-3">Home appliance</h5>
             <div class="card-body text-center">
               <a href="#" class="link-dark text-decoration-none ">See More...</a>
@@ -189,19 +189,19 @@
             <div class="row px-4">
               <div class="col-md-4  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p1.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p1.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p2.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p2.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p3.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p3.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
@@ -211,19 +211,19 @@
             <div class="row px-4">
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p3.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p3.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p2.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p2.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p1.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p1.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
@@ -233,25 +233,25 @@
             <div class="row px-4">
               <div class="col-md-3">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p2.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p2.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-3">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p1.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p1.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-3">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p3.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p3.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-3">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p7.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p7.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
@@ -284,25 +284,25 @@
             <div class="row px-4">
               <div class="col-md-3  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p3.webp" alt="">
+                  <img src="{{ asset ('assets/img/p3.webp')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-3  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p4.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p4.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-3  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p6.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p6.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-3  ">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p5.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p5.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
@@ -312,19 +312,19 @@
             <div class="row px-4">
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p4.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p4.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p3.webp" alt="">
+                  <img src="{{ asset ('assets/img/p3.webp')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p5.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p5.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
@@ -334,19 +334,19 @@
             <div class="row px-4">
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p5.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p5.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p4.jpg" alt="">
+                  <img src="{{ asset ('assets/img/p4.jpg')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
               <div class="col-md-4">
                 <a href="" class="text-center text-decoration-none link-dark">
-                  <img src="assets/p3.webp" alt="">
+                  <img src="{{ asset ('assets/img/p3.webp')}}" alt="">
                   <h3>Kitchen</h3>
                 </a>
               </div>
